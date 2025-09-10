@@ -69,7 +69,7 @@ body {
 }
 
 /* MESSAGES */
-.chatbox__messages {
+. {
     margin-top: auto;
     display: flex;
     overflow-y: scroll;

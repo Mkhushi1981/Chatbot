@@ -2,82 +2,100 @@
   "intents": [
     {
       "tag": "greeting",
-      "patterns": [
-        "Hi",
-        "Hey",
-        "How are you",
-        "Is anyone there?",
-        "Hello",
-        "Good day"
-      ],
+      "patterns": ["hello", "hi", "hey", "start", "good morning", "good afternoon"],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "👋 Hello and welcome to Neutonsoft!\nNeed a website, app, or digital solution? We're here to help.\n\nPlease type:\n- 'Website' for Web Development\n- 'Mobile' for App Development\n- 'Ecommerce' for Online Stores\n- 'Marketing' for Digital Services\n- Or ask anything specific!"
       ]
     },
     {
-      "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "tag": "website",
+      "patterns": ["website", "web", "1", "design", "development"],
       "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
+        "Great! We build powerful websites that help businesses stand out.\n✨ Our services include:\n- Business/Portfolio Websites\n- Custom CMS Development\n- Corporate Sites\n- Web Portals\n\nFor pricing, type 'cost'. For examples, type 'portfolio'."
+      ]
+    },
+    {
+      "tag": "mobile",
+      "patterns": ["mobile", "app", "2", "android", "ios"],
+      "responses": [
+        "📱 We build sleek mobile apps for all platforms:\n- Android & iOS Native Apps\n- Hybrid Cross-Platform Apps\n- Custom UI/UX Design\n\nType 'timeline' for development duration or 'cost' for pricing."
+      ]
+    },
+    {
+      "tag": "ecommerce",
+      "patterns": ["ecommerce", "shop", "3", "online store", "shopify"],
+      "responses": [
+        "🛍️ We create robust e-commerce solutions:\n- Shopify & WooCommerce Stores\n- Multi-vendor Marketplaces\n- Custom PHP CMS\n- Inventory Systems\n\nAsk about 'redesign' for existing stores or 'cost' for pricing."
+      ]
+    },
+    {
+      "tag": "marketing",
+      "patterns": ["marketing", "4", "seo", "ads", "social media"],
+      "responses": [
+        "📈 Our digital marketing services:\n- SEO Optimization\n- Google/Meta Ads\n- Social Media Management\n- Email Campaigns\n\nType 'audit' for free website analysis."
+      ]
+    },
+    {
+      "tag": "pricing",
+      "patterns": ["how much", "cost", "price", "budget"],
+      "responses": [
+        "Our projects start from:\n- Websites: AED 600+\n- Mobile Apps: AED 3,000+\n- E-commerce: AED 2,500+\n\nFor accurate pricing, please share your requirements or type 'contact'."
+      ]
+    },
+    {
+      "tag": "portfolio",
+      "patterns": ["portfolio", "examples", "past work", "show me"],
+      "responses": [
+        "View our portfolio at:\n👉 [Website Examples Link]\n👉 [App Gallery Link]\n\nNeed specific samples? Describe what you're looking for."
+      ]
+    },
+    {
+      "tag": "timeline",
+      "patterns": ["how long", "duration", "time", "schedule"],
+      "responses": [
+        "Typical project timelines:\n- Basic Website: 5-10 days\n- Custom Website: 2-4 weeks\n- Mobile App: 3-8 weeks\n\nNeed urgent delivery? Type 'rush' for expedited options."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["contact", "call", "meet", "proposal"],
+      "responses": [
+        "We'd love to connect!\n📞 Call: +971 50 123 4567\n📧 Email: hello@neutonsoft.com\n📍 Location: Dubai, UAE\n\nAvailable for international clients worldwide."
+      ]
+    },
+    {
+      "tag": "support",
+      "patterns": ["support", "maintenance", "amc", "hosting"],
+      "responses": [
+        "We offer comprehensive support:\n- Annual Maintenance Contracts\n- Managed Hosting\n- Security Updates\n- Performance Optimization\n\nType 'packages' for detailed plans."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": ["help", "options", "what can you do"],
+      "responses": [
+        "I can assist with:\n1. Website Development\n2. Mobile Apps\n3. E-commerce Solutions\n4. Digital Marketing\n\nJust type your question or choose a number above!"
       ]
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
-    },
-    {
-      "tag": "items",
-      "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
-      ],
+      "patterns": ["thanks", "thank you", "appreciate"],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "You're welcome! 😊 Let me know if you need anything else."
       ]
     },
     {
-      "tag": "payments",
-      "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
-      ],
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "later"],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "Thank you for contacting Neutonsoft! 👋\nWe're here whenever you need us."
       ]
     },
     {
-      "tag": "delivery",
-      "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
-      ],
+      "tag": "default",
+      "patterns": [],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
-      ]
-    },
-    {
-      "tag": "funny",
-      "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
-      ],
-      "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "I didn't quite understand that. Try typing:\n- 'Website'\n- 'Mobile'\n- 'Ecommerce'\n- 'Marketing'\nOr ask about pricing, timeline, etc."
       ]
     }
   ]
