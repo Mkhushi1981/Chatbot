@@ -2,100 +2,72 @@
   "intents": [
     {
       "tag": "greeting",
-      "patterns": ["hello", "hi", "hey", "start", "good morning", "good afternoon"],
+      "patterns": ["hello", "hi", "hey", "start", "good morning", "good afternoon", "good evening", "hi there"],
       "responses": [
-        "👋 Hello and welcome to Neutonsoft!\nNeed a website, app, or digital solution? We're here to help.\n\nPlease type:\n- 'Website' for Web Development\n- 'Mobile' for App Development\n- 'Ecommerce' for Online Stores\n- 'Marketing' for Digital Services\n- Or ask anything specific!"
+        "👋 Hello! Welcome to YallaPush!\nWe help websites engage and retain users with powerful **web push notifications**.\n\nAre you looking to:\n- 'Start' push notifications on your site?\n- 'Convert' more visitors into subscribers?\n- 'Drive' more sales and traffic?\n\nType your question, or just say 'Yes' to learn how!"
       ]
     },
     {
-      "tag": "website",
-      "patterns": ["website", "web", "1", "design", "development"],
+      "tag": "what_is",
+      "patterns": ["what is yallapush", "what do you do", "what is this", "what are push notifications", "explain"],
       "responses": [
-        "Great! We build powerful websites that help businesses stand out.\n✨ Our services include:\n- Business/Portfolio Websites\n- Custom CMS Development\n- Corporate Sites\n- Web Portals\n\nFor pricing, type 'cost'. For examples, type 'portfolio'."
+        "YallaPush is a platform that lets you send **browser-based push notifications** to your website visitors, even after they leave your site! 🔔\n\nIt's like having a direct marketing channel to your audience's desktop or mobile browser.\n\n**Benefits include:**\n- Re-engage visitors who didn't buy\n- Drive traffic back to your site\n- Announce sales & new content\n- Higher conversion rates than email\n\nType 'How' to see how it works, or 'Pricing' to see plans."
       ]
     },
     {
-      "tag": "mobile",
-      "patterns": ["mobile", "app", "2", "android", "ios"],
+      "tag": "how_it_works",
+      "patterns": ["how does it work", "how to use", "setup", "install", "integration", "how"],
       "responses": [
-        "📱 We build sleek mobile apps for all platforms:\n- Android & iOS Native Apps\n- Hybrid Cross-Platform Apps\n- Custom UI/UX Design\n\nType 'timeline' for development duration or 'cost' for pricing."
+        "Getting started with YallaPush is simple! 🛠️\n\n1. **Sign Up:** Create your free account.\n2. **Add Your Website:** Enter your site's URL.\n3. **Install Code:** Add a small JavaScript code snippet to your website (we guide you through it).\n4. **Start Sending:** Create your first campaign and start engaging users!\n\nWe support WordPress, Shopify, HTML, and all major platforms. Type 'Compatible' to check if your site works."
       ]
     },
     {
-      "tag": "ecommerce",
-      "patterns": ["ecommerce", "shop", "3", "online store", "shopify"],
+      "tag": "compatibility",
+      "patterns": ["compatible", "which websites", "wordpress", "shopify", "html", "wix", "squarespace"],
       "responses": [
-        "🛍️ We create robust e-commerce solutions:\n- Shopify & WooCommerce Stores\n- Multi-vendor Marketplaces\n- Custom PHP CMS\n- Inventory Systems\n\nAsk about 'redesign' for existing stores or 'cost' for pricing."
-      ]
-    },
-    {
-      "tag": "marketing",
-      "patterns": ["marketing", "4", "seo", "ads", "social media"],
-      "responses": [
-        "📈 Our digital marketing services:\n- SEO Optimization\n- Google/Meta Ads\n- Social Media Management\n- Email Campaigns\n\nType 'audit' for free website analysis."
+        "YallaPush works with almost any website! ✅\n\nWe seamlessly integrate with:\n- **WordPress** (with a dedicated plugin)\n- **Shopify** (easy app installation)\n- **HTML/CSS/JS** websites (simple code snippet)\n- **Wix, Squarespace, Weebly** (and other builders)\n- **Magento, OpenCart, PrestaShop**\n\nType 'Install' for specific setup guides."
       ]
     },
     {
       "tag": "pricing",
-      "patterns": ["how much", "cost", "price", "budget"],
+      "patterns": ["how much", "cost", "price", "budget", "quote", "plan", "pricing"],
       "responses": [
-        "Our projects start from:\n- Websites: AED 600+\n- Mobile Apps: AED 3,000+\n- E-commerce: AED 2,500+\n\nFor accurate pricing, please share your requirements or type 'contact'."
+        "YallaPush offers flexible plans to fit your needs and subscriber count. 💰\n\nOur plans are based on the number of **subscribers** you have, not the number of notifications you send!\n\n**Key Features in all plans:**\n- Unlimited Campaigns\n- Advanced Targeting\n- Real-time Analytics\n- RSS-to-Push Automation\n- And more!\n\nFor the most accurate and current pricing, please type **'Contact'** to talk to our team, or visit our Pricing page on the website."
       ]
     },
     {
-      "tag": "portfolio",
-      "patterns": ["portfolio", "examples", "past work", "show me"],
+      "tag": "use_cases",
+      "patterns": ["why do i need this", "benefits", "use case", "examples", "for my business", "ecommerce", "blog", "news"],
       "responses": [
-        "View our portfolio at:\n👉 [Website Examples Link]\n👉 [App Gallery Link]\n\nNeed specific samples? Describe what you're looking for."
+        "Push notifications are incredibly versatile! Here’s how different businesses use YallaPush:\n\n- **🛍️ E-commerce:** Recover abandoned carts, announce flash sales.\n- **📰 Blogs/News:** Alert subscribers about new articles or breaking news.\n- **💻 SaaS:** Announce new features, user onboarding, updates.\n- **🎟️ Events:** Send reminders and updates for webinars or conferences.\n\nIt's all about driving repeat traffic and conversions. Type 'Examples' to see message ideas."
       ]
     },
-    {
-      "tag": "timeline",
-      "patterns": ["how long", "duration", "time", "schedule"],
-      "responses": [
-        "Typical project timelines:\n- Basic Website: 5-10 days\n- Custom Website: 2-4 weeks\n- Mobile App: 3-8 weeks\n\nNeed urgent delivery? Type 'rush' for expedited options."
-      ]
-    },
-    {
+   {
       "tag": "contact",
-      "patterns": ["contact", "call", "meet", "proposal"],
+      "patterns": ["contact", "call", "meet", "proposal", "talk", "consultation", "demo", "speak", "service", "get started", "how to start"],
       "responses": [
-        "We'd love to connect!\n📞 Call: +971 50 123 4567\n📧 Email: hello@neutonsoft.com\n📍 Location: Dubai, UAE\n\nAvailable for international clients worldwide."
-      ]
-    },
-    {
-      "tag": "support",
-      "patterns": ["support", "maintenance", "amc", "hosting"],
-      "responses": [
-        "We offer comprehensive support:\n- Annual Maintenance Contracts\n- Managed Hosting\n- Security Updates\n- Performance Optimization\n\nType 'packages' for detailed plans."
-      ]
-    },
-    {
-      "tag": "help",
-      "patterns": ["help", "options", "what can you do"],
-      "responses": [
-        "I can assist with:\n1. Website Development\n2. Mobile Apps\n3. E-commerce Solutions\n4. Digital Marketing\n\nJust type your question or choose a number above!"
+        "We'd love to show you how YallaPush can grow your business! 🌱\n\n**Get in Touch With Us:**\n📞 **Call/WhatsApp:** +971 56 822 3695\n📧 **Email:** info@neutonsoft.com\n🌐 **Website:** https://yallapush.com\n\n**💡 Quickest Way to a Demo:**\nClick the **'Join Us'** button at the top of our website to instantly schedule a quick demo. We can't wait to connect with you!"
       ]
     },
     {
       "tag": "thanks",
-      "patterns": ["thanks", "thank you", "appreciate"],
+      "patterns": ["thanks", "thank you", "appreciate", "thankyou", "ty"],
       "responses": [
-        "You're welcome! 😊 Let me know if you need anything else."
+        "You're very welcome! 😊 We're excited to help you engage your audience better."
       ]
     },
     {
       "tag": "goodbye",
-      "patterns": ["bye", "goodbye", "see you", "later"],
+      "patterns": ["bye", "goodbye", "see you", "later", "exit", "stop"],
       "responses": [
-        "Thank you for contacting Neutonsoft! 👋\nWe're here whenever you need us."
+        "Thank you for chatting with YallaPush! 👋\nWe hope to help you unlock the power of push notifications soon!"
       ]
     },
     {
       "tag": "default",
       "patterns": [],
       "responses": [
-        "I didn't quite understand that. Try typing:\n- 'Website'\n- 'Mobile'\n- 'Ecommerce'\n- 'Marketing'\nOr ask about pricing, timeline, etc."
+        "I'm here to tell you all about YallaPush and web push notifications! 🔔\n\nPlease ask me about:\n- What we do ('What is YallaPush?')\n- How it works\n- Pricing\n- If it works on your website\n- Or just type 'Contact' to talk to a human!"
       ]
     }
   ]
